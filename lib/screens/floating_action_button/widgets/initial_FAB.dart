@@ -7,9 +7,7 @@ Widget buildExtendedFAB() {
     width: 150,
     height: 50,
     child: FloatingActionButton.extended(
-      onPressed: () {
-        // Handle the action for the extended FAB here.
-      },
+      onPressed: () {},
       icon: const Icon(Icons.edit),
       label: const Center(
         child: Text(

@@ -1,4 +1,4 @@
-import 'package:animations/screens/floating_action_button/ListPage.dart';
+import 'package:animations/screens/home_page/HomePage.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,8 +11,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter List Example',
-      home: ListPage(), // Use the HomePage widget as the home page.
+      title: 'Flutter Animations',
+      home: HomePage(), // Use the HomePage widget as the home page.
     );
   }
 }

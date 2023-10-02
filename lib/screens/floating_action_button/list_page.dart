@@ -1,4 +1,3 @@
-import 'package:animations/screens/floating_action_button/widgets/final_FAB.dart';
 import 'package:animations/screens/floating_action_button/widgets/initial_FAB.dart';
 import 'package:flutter/material.dart';
 
@@ -53,7 +52,7 @@ class _ListPageState extends State<ListPage> {
           );
         },
       ),
-      floatingActionButton: _isFABComposing ? buildExtendedFAB() : buildFAB(),
+      floatingActionButton: buildFAB(_isFABComposing),
     );
   }
 }

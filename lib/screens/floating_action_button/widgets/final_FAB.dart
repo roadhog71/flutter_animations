@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-Widget buildFAB() {
+/*Widget buildFAB() {
   return AnimatedContainer(
     duration: Duration(milliseconds: 200),
     curve: Curves.linear,
@@ -15,4 +15,4 @@ Widget buildFAB() {
       label: const SizedBox(),
     ),
   );
-}
+}*/
